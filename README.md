@@ -6,8 +6,6 @@
 - [Technologies Used](#technologies-used)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Project](#running-the-project)
 - [Database Connection](#database-connection)
 
 
@@ -37,3 +35,17 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Kunalmishra123/BankTransactions.git
+
+## Database Connection
+1. **Create a appsettings.json file in the root directory (if it doesn't already exist).
+     Add your database connection string:**
+   ```bash
+   "ConnectionStrings": {
+    "DefaultConnection": "Server=YOUR_SERVER;Database=BankTransactions;Trusted_Connection=True;"
+   },
+
+To update your local databse use below command:
+- Update-Database 
+
+  
+   
